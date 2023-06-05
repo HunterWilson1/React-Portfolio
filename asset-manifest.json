@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.e6b43aaf.css",
+    "main.js": "/react-portfolio/static/js/main.d956a138.js",
+    "static/media/Nutricipe.png": "/react-portfolio/static/media/Nutricipe.c205476e0a28e8e09313.png",
+    "static/media/grad.jpg": "/react-portfolio/static/media/grad.616b8d908ca633d4a8ac.jpg",
+    "static/media/waterudoin.png": "/react-portfolio/static/media/waterudoin.b6ff268b23981423a44a.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.e6b43aaf.css.map": "/react-portfolio/static/css/main.e6b43aaf.css.map",
+    "main.d956a138.js.map": "/react-portfolio/static/js/main.d956a138.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6b43aaf.css",
+    "static/js/main.d956a138.js"
+  ]
+}
