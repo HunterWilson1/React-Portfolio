@@ -9,7 +9,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="bg-gray-900 py-10">
+    <div className="flex justify-center items-center h-screen bg-gray-900">
       <div className="max-w-screen-lg mx-auto px-4">
         <h2 className="text-3xl font-bold mb-4 text-white">Contact</h2>
         <p className="text-xl text-gray-300 mb-8">Submit the form below to get in touch with me</p>

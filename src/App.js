@@ -1,9 +1,9 @@
 import React from 'react';
-import Header from './components/header';
+import Header from './components/Nav'
 import AboutMe from './components/AboutMe';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
-import Resume from './components/Resume';
+//import Resume from './components/Resume';
 
 const App = () => {
     return (
@@ -12,7 +12,7 @@ const App = () => {
             <AboutMe />
             <Portfolio />
             <Contact />
-            <Resume />
+           
         </div>
     );
 };

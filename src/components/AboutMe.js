@@ -1,30 +1,42 @@
 import React from "react";
+import pic from "../images/grad.jpg";
+
 
 const AboutMe = () => {
   return (
-    <section id="about-me" className="bg-gray-100 py-10">
-      <h2 className="text-3xl font-bold mb-4">About Me</h2>
-      <p className="my-4">
-        I am Hunter Wilson and I am currently a student at Georgia Tech Coding
-        Bootcamp. I have always had a passion for technology and problem-solving
-        and decided to pursue a career in web development. Through the bootcamp,
-        I have gained a strong foundation in modern technologies such as HTML,
-        CSS, and JavaScript.
-      </p>
-      <p className="my-4">
-        Aside from my technical skills, I am a strong team player and have
-        excellent communication and time management skills. I am constantly
-        looking for ways to improve and expand my knowledge and am excited to
-        start my career in the tech industry.
-      </p>
-      <p className="my-4">
-        In my free time, I enjoy staying up-to-date with the latest trends in
-        technology and participating in online coding challenges. I am also an
-        avid reader and enjoy spending time outdoors. Thank you for taking the
-        time to read about me. I look forward to the opportunity to contribute
-        my skills and learn from others in a professional setting.
-      </p>
-    </section>
+    <div
+      id="home"
+      className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 home"
+    >
+      <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
+        <div className="small-screen hidden">
+          <img
+            src={pic}
+            alt="profile"
+            className="rounded-2xl mx-auto custom-image md:w-full"
+          />
+        </div>
+        <div className="flex flex-col justify-center h-full">
+          <h2 className="text-4xl sm:text-7xl font-bold text-white">
+            About Me
+          </h2>
+          <p className="text-gray-500 py-4 max-w-md">
+          I am Hunter Wilson, a Full Stack Web Developer with experience and extensive education in software design and application development. 
+          Equipped with a diverse and promising skill-set, I am proficient in various platforms, languages, and embedded systems. 
+          I am experienced with cutting-edge development tools and procedures, and have the ability to effectively self-manage during independent projects, as well as collaborate as part of a productive team.
+          In addition to my technical skills, I am a strong team player with excellent communication and time management skills. I am constantly seeking ways to improve and expand my knowledge, and I am excited to embark on a career in the tech industry.
+          Thank you for taking the time to learn more about me. I am eager to contribute my skills and knowledge and learn from others in a professional setting. 
+          </p>
+        </div>
+        <div className="big-screen">
+          <img
+            src={pic}
+            alt="profile"
+            className="rounded-2xl mx-auto custom-image md:w-full"
+          />
+        </div>
+      </div>
+    </div>
   );
 };
 
