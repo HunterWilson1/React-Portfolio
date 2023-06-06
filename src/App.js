@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from './components/Nav'
+import Nav from './components/Nav';
 import AboutMe from './components/AboutMe';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
@@ -8,7 +8,7 @@ import Contact from './components/Contact';
 const App = () => {
     return (
         <div>
-            <Header />
+            <Nav />
             <AboutMe />
             <Portfolio />
             <Contact />
