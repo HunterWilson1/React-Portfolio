@@ -1,21 +1,29 @@
 import React from 'react';
 import Nutricipe from '../images/Nutricipe.png';
 import WaterUdoin from '../images/waterudoin.png';
+import CalmQuest from '../images/CalmQuest.png'
 
 const Portfolio = () => {
     const projects = [
         {
             id: 1,
             src: Nutricipe,
-            link: '',
-            repo: ''
+            link: 'https://laceya25.github.io/Nutricipe/',
+            repo: 'https://github.com/Laceya25/Nutricipe'
         },
         {
             id: 2,
             src: WaterUdoin,
-            link: '',
-            repo: ''
-        }
+            link: 'https://waterudoin.herokuapp.com/',
+            repo: 'https://github.com/CKBoytGT/waterUdoin'
+        },
+        {
+          id: 3,
+          src: CalmQuest,
+          link: '',
+          repo: 'https://github.com/eddieg00/CalmQuest'
+        },
+        
     ];
     
     return (
@@ -23,7 +31,7 @@ const Portfolio = () => {
           <div className="max-w-screen-lg p-4 mx-auto">
             <div className="pb-8">
               <h2 className="text-4xl font-bold inline border-b-4 border-gray-500">Portfolio</h2>
-              <p className="py-6">Check out some of my work right here</p>
+              <p className="py-6">Check out some of my work</p>
             </div>
       
             <div className="grid grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
