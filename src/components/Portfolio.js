@@ -1,7 +1,8 @@
 import React from 'react';
 import Nutricipe from '../images/Nutricipe.png';
 import WaterUdoin from '../images/waterudoin.png';
-import CalmQuest from '../images/CalmQuest.png'
+import CalmQuest from '../images/CalmQuest.png';
+import Javascript from '../images/javascript.png';
 
 const Portfolio = () => {
     const projects = [
@@ -20,8 +21,14 @@ const Portfolio = () => {
         {
           id: 3,
           src: CalmQuest,
-          link: '',
+          link: 'https://calmquest.herokuapp.com/login',
           repo: 'https://github.com/eddieg00/CalmQuest'
+        },
+        {
+          id: 4,
+          src: Javascript,
+          link: 'https://hunterwilson1.github.io/Javascript-Quiz/',
+          repo: 'https://github.com/HunterWilson1/Javascript-Quiz'
         },
         
     ];
