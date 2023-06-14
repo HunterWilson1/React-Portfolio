@@ -1,8 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 
 const Contact = () => {
+  const [errorMessage, setErrorMessage] = useState("");
+
   const handleSubmit = (e) => {
     e.preventDefault();
+    
+    // Simulating an error condition
+    const shouldThrowError = true;
+
+    if (shouldThrowError) {
+      setErrorMessage("Oops! Something went wrong. Please try again later.");
+      return;
+    }
+
     setTimeout(() => {
       e.target.reset();
     }, 3000);
@@ -17,7 +28,7 @@ const Contact = () => {
           onSubmit={handleSubmit}
           name="contact"
           method="POST"
-          action="https://getform.io/f/294883f9-5ecf-4e0f-9bd4-6c2069a7c991"
+          action=""
           className="w-full md:w-1/2"
         >
           <input
@@ -41,6 +52,8 @@ const Contact = () => {
             required
             className="p-3 bg-gray-800 border-2 rounded-md text-white w-full mb-4 focus:outline-none"
           ></textarea>
+
+          {errorMessage && <p className="text-red-500">{errorMessage}</p>}
 
           <button
             type="submit"
