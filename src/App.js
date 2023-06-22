@@ -1,17 +1,18 @@
 import React from 'react';
 import Nav from './components/Nav';
-import AboutMe from './components/AboutMe';
-import Portfolio from './components/Portfolio';
+import Me from './components/Me';
+import Projects from './components/Projects';
 import Contact from './components/Contact';
-//import Resume from './components/Resume';
 
 const App = () => {
     return (
         <div>
             <Nav />
-            <AboutMe />
-            <Portfolio />
-            <Contact />
+            <main className='bg-gray-900 text-white'>
+                <Me />
+                <Projects />
+                <Contact />
+            </main>
            
         </div>
     );
