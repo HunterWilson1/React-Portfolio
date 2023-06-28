@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.02b69266.css",
-    "main.js": "/React-Portfolio/static/js/main.f934fdaf.js",
+    "main.css": "/React-Portfolio/static/css/main.1bdaacef.css",
+    "main.js": "/React-Portfolio/static/js/main.a2c70489.js",
     "static/media/nutricipe2.png": "/React-Portfolio/static/media/nutricipe2.e5fe49e665e1db604750.png",
     "static/media/CalmQuest.png": "/React-Portfolio/static/media/CalmQuest.120d93b2f38243ff14e7.png",
     "static/media/grad.jpg": "/React-Portfolio/static/media/grad.616b8d908ca633d4a8ac.jpg",
@@ -11,11 +11,11 @@
     "static/media/wurkit.png": "/React-Portfolio/static/media/wurkit.d100f080521a8f0f0cd2.png",
     "static/media/gifit.png": "/React-Portfolio/static/media/gifit.77ae166e829996d14f7d.png",
     "index.html": "/React-Portfolio/index.html",
-    "main.02b69266.css.map": "/React-Portfolio/static/css/main.02b69266.css.map",
-    "main.f934fdaf.js.map": "/React-Portfolio/static/js/main.f934fdaf.js.map"
+    "main.1bdaacef.css.map": "/React-Portfolio/static/css/main.1bdaacef.css.map",
+    "main.a2c70489.js.map": "/React-Portfolio/static/js/main.a2c70489.js.map"
   },
   "entrypoints": [
-    "static/css/main.02b69266.css",
-    "static/js/main.f934fdaf.js"
+    "static/css/main.1bdaacef.css",
+    "static/js/main.a2c70489.js"
   ]
 }
