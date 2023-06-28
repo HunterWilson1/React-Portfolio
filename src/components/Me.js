@@ -23,11 +23,14 @@ const Me = () => {
         Hunter Wilson
       </h2>
       <h3 className="py-3 text-2xl">Full-Stack Web Developer</h3>
-      <p className="max-w-xl font-light">
-        Welcome to my portfolio page! I'm a full stack developer specializing in
-        crafting dynamic web applications with a keen eye for detail and a
-        passion for problem-solving.
-      </p>
+      <p className="max-w-xl mt-4 text-lg font-light">
+          I'm a full stack developer specializing in crafting dynamic web
+          applications with a keen eye for detail and a passion for
+          problem-solving. With a solid foundation in frontend and backend
+          technologies, I strive to deliver high-quality and user-friendly
+          solutions. My goal is to create seamless digital experiences that
+          captivate users and drive business growth.
+        </p>
 
       <div className="flex justify-evenly py-8 lg:py-16 text-3xl w-full md:w-1/3">
         {socials.map(({ id, link, icon }) => (

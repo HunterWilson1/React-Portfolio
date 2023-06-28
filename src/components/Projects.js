@@ -1,8 +1,11 @@
 import React from "react";
-import Nutricipe from "../images/Nutricipe.png";
+import Nutricipe from "../images/nutricipe2.png";
 import waterudoin from "../images/waterudoin.png";
 import CalmQuest from "../images/CalmQuest.png";
-
+import weather from "../images/weather.png";
+import chample from "../images/chample.png";
+import wurkit from "../images/wurkit.png";
+import gifit from "../images/gifit.png";
 
 const Projects = () => {
   const projects = [
@@ -10,18 +13,46 @@ const Projects = () => {
       id: 1,
       image: Nutricipe,
       title: "Nutricipe",
-      github: "",
-      demo: "",
+      github: "https://github.com/HunterWilson1/Nutricipe",
+      demo: "https://hunterwilson1.github.io/Nutricipe/",
     },
     {
       id: 2,
+      image: wurkit,
+      title: "Wurkit",
+      github: "https://github.com/HunterWilson1/wurkit",
+      demo: "https://wurkit-b5ccce7abaaf.herokuapp.com/login",
+    },
+    {
+      id: 3,
+      image: weather,
+      title: "Weather Dashboard",
+      github: "https://github.com/HunterWilson1/Weather-Dashboard",
+      demo: "https://hunterwilson1.github.io/Weather-Dashboard/",
+    },
+    {
+      id: 4,
+      image: chample,
+      title: "Chample",
+      github: "https://github.com/HunterWilson1/chample",
+      demo: "https://hunterwilson1.github.io/chample/",
+    },
+    {
+      id: 5,
+      image: gifit,
+      title: "Gifit",
+      github: "https://github.com/HunterWilson1/gifit",
+      demo: "https://hunterwilson1.github.io/gifit/",
+    },
+    {
+      id: 6,
       image: waterudoin,
       title: "WaterUdoin",
       github: "https://github.com/CKBoytGT/waterUdoin",
       demo: "https://waterudoin.herokuapp.com/",
     },
     {
-        id: 3,
+        id: 7,
         image: CalmQuest,
         title: "CalmQuest",
         github: "https://github.com/HunterWilson1/CalmQuest",
